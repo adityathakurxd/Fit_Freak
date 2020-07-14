@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="677" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+              <Component id="jTextField1" min="-2" pref="558" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jTextField1" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="793" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Workout plan for Muscle and Strength Gain"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="We will follow push ,pull,legs workout plan as it is most effective plan which focuses on compound exercises which increases overall strength.&#xa;&#xa;Monday| PULL &#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Deadlifts&#x9;&#x9;&#x9;1st: 3-5 reps 2nd: 6-8 reps&#xa;Underhand Pulldowns:&#x9;&#x9;2 x 8-12 reps&#xa;Dumbbell One Rows      &#x9;&#x9;1st: 6-8 reps 2nd: 12-15 reps&#xa;Pendlay Rows&#x9;&#x9;&#x9;1st: 6-8 reps 2nd: 12-15 reps&#xa;Skull Crushers&#x9;&#x9;&#x9;3 x 8-12 reps&#xa;Rope Hammer Curls&#x9;&#x9;2 x 12-15 reps&#xa;&#xa;Tuesday | PUSH &#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Incline Bench Press&#x9;&#x9;1st: 6-8 reps 2nd: 8-12 reps&#xa;Flat Dumbbell Press&#x9;&#x9;2 x 8-12 reps&#xa;Wide-Grip Dips&#x9;&#x9;&#x9;3 (Bodyweight &gt; failure)&#xa;Dumbbell Shoulder Press&#x9;&#x9;2 x 8-12 reps&#xa;Arnold Press&#x9;&#x9;&#x9;2 x 12-15 reps&#xa;Skull Crushers&#x9;&#x9;&#x9;3 x 8-12 reps&#xa;Underhand Pushdowns&#x9;&#x9;2 x 12-15 reps&#xa;&#xa;Wednesday| LEGS &#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Front Squats&#x9;&#x9;&#x9;1st: 6-8 reps 2nd: 12-15 reps&#xa;Feet Low &amp; Close Leg Press&#x9;&#x9;2 x 15-20 reps&#xa;Stiff-legged deadlifts&#x9;&#x9;6-8reps &gt; 8-12 reps&#xa;Glute Ham raises&#x9;&#x9;Bodyweight &gt; Failure&#xa;Walking lunges&#x9;&#x9;&#x9;2 x 20 each leg&#xa;&#xa;Thursday | PULL 2&#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Bent Over Rows&#x9;&#x9;1st: 6-8 reps 2nd: 8-12 reps&#xa;T-Bar Row&#x9;&#x9;&#x9;2 x 6-8 reps&#xa;Close Grip Chin-ups&#x9;&#x9;3 (Bodyweight &gt; failure)&#xa;Rack Deadlifts&#x9;&#x9;&#x9;1st: 3-5 reps 2nd: 6-8 reps&#xa;Barbell Curls&#x9;&#x9;&#x9;3 x 8-12 reps&#xa;Reverse Grip Cable Curls&#x9;&#x9;2 x 12-15 reps&#xa;&#xa;Friday| PUSH &#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Decline Bench Press&#x9;&#x9;1st: 6-8 reps 2nd: 8-12 reps&#xa;Incline Dumbbell Press&#x9;&#x9;2 x 8-12 reps&#xa;Flat Machine Press&#x9;&#x9;2 x 10-12 reps&#xa;Seated Smith Machine Shoulder Press&#x9;2 x 8-12 reps&#xa;Wide-Grip Upright Rows&#x9;&#x9;2 x 12-15 reps&#xa;Close-Grip Bench Press&#x9;&#x9;2 x 6-8 reps&#xa;Overhead Rope Extensions&#x9;&#x9;3 x 12-15 reps&#xa;&#xa;Saturday | LEGS &#xa;Exercises&#x9;&#x9;&#x9;Sets &amp; Reps&#xa;Squats&#x9;&#x9;&#x9;1st: 6-8 reps 2nd: 8-12 reps&#xa;Lying Leg Curls&#x9;&#x9;&#x9;2 x 12-15 reps&#xa;Hack Squats&#x9;&#x9;&#x9;2 x 15-20 reps&#xa;Smith Machine Front Squats&#x9;&#x9;2 x 15-20 reps&#xa;&#xa;Sunday | Rest Day&#xa;(Do high intensity sprinting and core exercises 2 days every week with addition with this plan)&#xa;&#xa;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

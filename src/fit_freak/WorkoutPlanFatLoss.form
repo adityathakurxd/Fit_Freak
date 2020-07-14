@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="639" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jTextField1" min="-2" pref="386" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Component id="jTextField1" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="638" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Black" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Workout plan for Fat Loss: "/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Monday: &#xa;Total-Body Strength Training &#xa;1.Bodyweight Squats&#x2014;15 reps. &#xa;Quick tip: Get low, keep your chest up, and don&apos;t let your knees go over your toes during this lower-body move. &#xa;&#xa;2.Dumbbell Bench Press&#x2014;12 reps. &#xa;Quick tip: Position yourself so your head, back, and butt are all on the bench, your feet flat on the floor. &#xa;&#xa;3.Dumbbell Row&#x2014;12 reps each side. &#xa;Quick tip: If you don&apos;t have a bench available, try a&#xa0;bent-over row. &#xa;&#xa;4.Lying Isometric Y&#x2014;Hold for 30 seconds. &#xa;Quick tip: You can keep your legs on the ground for this one if that feels more comfortable. &#xa;&#xa;5.Box Step-Ups&#x2014;15 reps each leg. &#xa;Quick tip: Alternate between your left and right leg, and for an extra challenge, step your lifted foot into a lunge as you come down from the box. &#xa;&#xa;6.Plank&#x2014;Hold for 30 seconds. Quick tip: Make sure you&apos;re keeping your core tight! Do the circuit 3x, resting for 1 minute between each round.  &#xa;&#xa;Tuesday: &#xa;Sprint Intervals &#xf0b7;30 seconds: &#xa;Full-out sprint &#xf0b7;60 seconds: &#xa;Moderate pace jog &#xf0b7;Do this 12x (many of you think jogging way too long at slow pace will decrease weight yes that is partially true but by running far distances only muscle mass gets reduced not the fat) &#xa;&#xa;Wednesday: &#xa;Foam Rolling + 12,000 Steps &#xa;It is a recovery day but we don&apos;t have to fully rest. &#xa;&#xa;Thursday: &#xa;Total-Body Strength Training &#xa;Do the same workout you did on Monday.  &#xa;&#xa;Friday: &#xa;High-Intensity Group Fitness &#xa;Take part in a intense group activity ,like-cycling ,trekking, playing  outdoor sports. &#xa;&#xa;Saturday: &#xa;Total-Body Strength Training Do the same workout you did on Monday and Thursday. &#xa;&#xa;Sunday: &#xa;Rest Day Enjoy your rest day. Have fun. &#xa;(Follow this routine for 1 month after that when you are familiar with training increase no. Of reps and sets gradually)."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
